@@ -1,4 +1,4 @@
-# Exploring Istanbul’s Shopping and Tourism Economy
+# Exploring Istanbul’s Shopping and Tourism Economy - \*Work In-Progress\*
 
 ## **Problem Statement**
 - How can our data-driven insights improve Istanbul’s retail and tourism sectors?  
@@ -105,15 +105,7 @@ We will:
 ---
 
 ## **Results**
-*Status: Incomplete*  
-
----
-
-## **Contributors**
-- **Basir:** Visualizations and dashboards  
-- **Team Member 1:** Classification models (Decision Trees, Rule-Based Methods, Naive Bayes)  
-- **Team Member 2:** Clustering models (K-Means, K-Mode)  
-> *Collaboration was key in achieving this project’s goals!*  
+*Status: Incomplete*
 
 ---
 
