@@ -109,6 +109,6 @@ We will:
 
 ---
 
-## **Acknowledgments**
+## **References**
 - **Kaggle Dataset:** Istanbul’s shopping habits (2021–2023).  
 - **Turkey Tourism Board Statistics (2023):** Inspiration for project goals and hypotheses.  
