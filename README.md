@@ -25,7 +25,9 @@ Using K-means clustering, customers were segmented into four distinct groups bas
 - Average transaction value
 - Shopping patterns
 
-![Customer Segment Distribution](plots/customer_segments.png)
+<div align="center">
+  <img src="plots/customer_segments.png" alt="Customer Segment Distribution" />
+</div>
 *Space for interpretation of segment characteristics and business implications*
 
 ### 3. Purchase Prediction Modeling
