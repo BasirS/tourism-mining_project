@@ -1,0 +1,27 @@
+,feature,importance
+2,price,0.5045251959479969
+1,quantity,0.21619849469841648
+8,category_Food & Beverage,0.07005565614903204
+6,category_Clothing,0.06817087307945184
+7,category_Cosmetics,0.03407898118561374
+9,category_Shoes,0.027388050145184535
+11,category_Technology,0.02590927173639591
+12,category_Toys,0.02230655871796327
+5,category_Books,0.015060410109785066
+10,category_Souvenir,0.014159273181360324
+0,age,0.0011283550243953698
+3,gender_Female,0.00010129779868894989
+14,payment_method_Credit Card,9.938296322152636e-05
+15,payment_method_Debit Card,9.773918722639368e-05
+4,gender_Male,9.347282580580177e-05
+13,payment_method_Cash,8.429534967391534e-05
+25,shopping_mall_Zorlu Center,6.0251704107424786e-05
+24,shopping_mall_Viaport Outlet,5.899961504303397e-05
+20,shopping_mall_Kanyon,5.773832888391783e-05
+23,shopping_mall_Metropol AVM,5.568517357492992e-05
+18,shopping_mall_Forum Istanbul,5.4875465072677864e-05
+22,shopping_mall_Metrocity,5.470921799188138e-05
+21,shopping_mall_Mall of Istanbul,5.2451898320157766e-05
+19,shopping_mall_Istinye Park,5.232992177012051e-05
+17,shopping_mall_Emaar Square Mall,4.8748587909448915e-05
+16,shopping_mall_Cevahir AVM,4.690198711422632e-05
