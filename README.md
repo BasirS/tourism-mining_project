@@ -113,35 +113,16 @@ For the final piece of the exploratory analysis, I wanted to see how the differe
     Similarly, the temporal features like **Month** and **DayOfWeek** also show weak linear correlations with `TotalAmount` here. We already know from the previous line charts that these features hold clear seasonal and weekly patterns. The heatmap's weak result here just proves that those patterns aren't simple straight lines. This is the single best justification for our choice of model in `purchase_prediction.py`. A simple linear regression would fail to see these patterns, but a **Random Forest** is great at capturing exactly these kinds of complex, non-linear relationships, which makes it the right tool for the job.
 
 ## Key Findings
-1. Customer Segments:
-   - High-value frequent shoppers
-   - Moderate-value regular customers
-   - Occasional shoppers
-   - Budget-conscious customers
 
-2. Purchase Patterns:
-   - Peak shopping periods
-   - Preferred product categories
-   - Payment method preferences
-
-3. Mall Performance:
-   - Revenue distribution
-   - Customer traffic patterns
-   - Product category success
+* In the prediction model, spending was primarily determined by `price` (**0.50 importance**) and `quantity` (**0.22 importance**).
+* Customer segments with vastly different spending habits were found, including a high-spending group (avg. spend **$14,511**) and a low-spending group (avg. spend **$471**).
+* Specific customer personas were also identified, such as a segment of **Females who prefer buying Clothing with Cash at the Mall of Istanbul**.
 
 ## Business Implications
-1. Inventory Management:
-   - Optimize stock levels based on segment preferences
-   - Align product offerings with customer demographics
 
-2. Marketing Strategies:
-   - Target specific customer segments
-   - Personalize promotions based on shopping patterns
-
-3. Mall Operations:
-   - Optimize store layouts
-   - Enhance customer experience
-   - Improve revenue distribution
+* **Targeted Marketing:** Create tailored marketing campaigns for high-spending segments (avg. spend **$14,511**) and personalize promotions for data-driven personas (e.g., female fashion shoppers at the Mall of Istanbul).
+* **Inventory Management:** Optimize stock levels for top categories like 'Clothing' at high-traffic locations.
+* **Mall Operations:** Enhance store layouts to feature stores that appeal to the specific customer personas found to frequent those locations.
 
 ## Technical Implementation
 The analysis was implemented using:
