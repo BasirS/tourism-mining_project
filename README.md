@@ -112,17 +112,35 @@ For the final piece of the exploratory analysis, I wanted to see how the differe
 
     Similarly, the temporal features like **Month** and **DayOfWeek** also show weak linear correlations with `TotalAmount` here. We already know from the previous line charts that these features hold clear seasonal and weekly patterns. The heatmap's weak result here just proves that those patterns aren't simple straight lines. This is the single best justification for our choice of model in `purchase_prediction.py`. A simple linear regression would fail to see these patterns, but a **Random Forest** is great at capturing exactly these kinds of complex, non-linear relationships, which makes it the right tool for the job.
 
-## Key Findings
-
-* In the prediction model, spending was primarily determined by `price` (**0.50 importance**) and `quantity` (**0.22 importance**).
-* Customer segments with vastly different spending habits were found, including a high-spending group (avg. spend **$14,511**) and a low-spending group (avg. spend **$471**).
-* Specific customer personas were also identified, such as a segment of **Females who prefer buying Clothing with Cash at the Mall of Istanbul**.
-
 ## Business Implications
 
 * **Targeted Marketing:** Create tailored marketing campaigns for high-spending segments (avg. spend **$14,511**) and personalize promotions for data-driven personas (e.g., female fashion shoppers at the Mall of Istanbul).
 * **Inventory Management:** Optimize stock levels for top categories like 'Clothing' at high-traffic locations.
 * **Mall Operations:** Enhance store layouts to feature stores that appeal to the specific customer personas found to frequent those locations.
+
+## Conclusion
+
+After analyzing Istanbul's shopping data, we uncovered some pretty interesting patterns about how people shop and what drives their spending decisions.
+
+### Key Discoveries
+
+The most striking finding is how female-driven this market really is - women make up 60% of all shoppers, which shapes everything from product selection to store layouts. What's equally fascinating is that age doesn't create the barriers you might expect. People from 18 to 70 shop at roughly equal rates, showing these malls have figured out how to appeal across generations.
+
+Clothing absolutely dominates sales, towering over every other category with shoes coming in second. This makes perfect sense given that female-heavy customer base and explains why fashion-focused malls perform so well. The Mall of Istanbul clearly leads the pack in both revenue and foot traffic, with Kanyon following as a strong second.
+
+### The Money Story
+
+Our customer segmentation revealed dramatically different spending groups - high-rollers averaging $14,511 per trip versus budget shoppers around $471. That's not just a difference; that's two completely different shopping realities happening in the same spaces.
+
+The prediction model taught us that spending comes down to two main factors: item prices (50% importance) and quantity purchased (22% importance). Simple but powerful insights that give businesses clear levers for understanding customer behavior.
+
+### Real Impact
+
+These patterns translate directly into business opportunities. The high-spending segments we identified represent goldmines for targeted marketing, while specific personas like women buying clothing with cash at Mall of Istanbul give incredibly precise targeting options.
+
+Payment preferences show cards dominate about two-thirds of transactions, but cash still plays a huge role. The seasonal spikes during holidays and weekly rhythms peaking on weekends aren't just marketing hype - they represent genuine behavioral shifts that smart businesses can leverage.
+
+What started as transaction data has become a comprehensive map of how modern retail works in one of the world's most dynamic cities. The customer segments we discovered aren't just statistics; they're real groups with distinct shopping personalities that businesses can build entire strategies around.
 
 ## Technical Implementation
 The analysis was implemented using:
@@ -149,11 +167,6 @@ tourism-mining_project/
 └── results/
 ```
 
-## Future Work
-1. Enhanced segmentation using additional features
-2. Real-time prediction system implementation
-3. Integration with business intelligence tools
-4. Development of automated reporting system
+## What's Next
 
-## References
-- Istanbul Shopping Dataset (2021-2023)
+There's tons more we could explore with this data - like diving deeper into seasonal patterns, looking at how different age groups shop differently, or even expanding this analysis to other Turkish cities. The foundation is solid, so the possibilities are pretty endless.
