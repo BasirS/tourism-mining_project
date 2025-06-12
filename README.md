@@ -1,4 +1,4 @@
-# Istanbul Shopping and Tourism Analysis (in-progress)
+# Istanbul Shopping and Tourism Analysis
 
 ## Project Overview
 This project analyzes Istanbul's retail and tourism sectors using machine learning and data analytics techniques. The analysis focuses on understanding customer behaviors, mall operations, and tourism trends to provide actionable insights for business optimization.
